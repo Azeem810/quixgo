@@ -1,0 +1,16 @@
+.labelColor{
+    color:white !important;
+    text-decoration: none;
+   box-shadow: none !important;
+    
+}
+
+.breadcrumb{
+    font-weight: 600;
+}
+.breadcrumb:hover{
+ color: #ecab0c;
+ 
+}
+
+
