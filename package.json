@@ -3,14 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "env-cmd -f .env.dev next dev",
-    "build:dev": "env-cmd -f .env.dev next build",
-    "build:stag": "env-cmd -f .env.stag next build",
-    "build:prod": "env-cmd -f .env.prod next build",
-    "start:dev": "next start -p 3100",
-    "start:stag": "next start -p 3200",
-    "start:prod": "next start -p 3300",
-    "start:server": "node server.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
 
